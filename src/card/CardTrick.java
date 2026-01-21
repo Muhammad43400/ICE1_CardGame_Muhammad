@@ -68,5 +68,14 @@ public class CardTrick {
         } else {
             System.out.println("Sorry, your card is NOT in the magic hand.");
         }
+
+
+        // Hard-coded lucky card
+        Card luckyCard = new Card();
+        luckyCard.setValue(2);      
+        luckyCard.setSuit("Clubs");
+
+magicHand[0] = luckyCard;  // place lucky card into the hand
+
     }
 }
